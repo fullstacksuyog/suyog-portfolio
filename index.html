@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suyog Pokharel | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Suyog</div>
+    <nav>
+      <button onclick="toggleSection('home')">Home</button>
+      <button onclick="toggleSection('services')">Services</button>
+      <button onclick="toggleSection('skills')">Skills</button>
+      <button onclick="toggleSection('education')">Education</button>
+      <button onclick="toggleSection('experience')">Experience</button>
+      <button onclick="toggleSection('contact')">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="layout">
+      <div class="left">
+        <img src="images/itachi.jpg" alt="Itachi Uchiha" />
+      </div>
+      <div class="right">
+        <section id="home" class="visible">
+          <h1>Hi, I'm <span>Suyog Pokharel</span></h1>
+          <h3>I'm a <span class="highlight">Web Developer</span></h3>
+          <p>I specialize in building clean, responsive websites using HTML, CSS, JavaScript, and React. With over 600 hours of certified training, I help businesses turn imagination into reality through modern web solutions.</p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/suyogpokharel" target="_blank">LinkedIn</a>
+            <a href="https://github.com/suyogdev" target="_blank">GitHub</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+          <a href="mailto:suyogpokharel58@gmail.com" class="btn">Hire Me</a>
+        </section>
+
+        <section id="services" class="hidden">
+          <h2>Services</h2>
+          <ul>
+            <li>Web Development</li>
+            <li>Responsive Design</li>
+            <li>React Development</li>
+            <li>SEO Optimization</li>
+          </ul>
+        </section>
+
+        <section id="skills" class="hidden">
+          <h2>Skills</h2>
+          <p>HTML, CSS, JavaScript, React, Git, GitHub, Responsive Design, API Integration</p>
+        </section>
+
+        <section id="education" class="hidden">
+          <h2>Certifications</h2>
+          <ul>
+            <li><a href="https://www.freecodecamp.org/certification/suyogdev/responsive-web-design" target="_blank">Responsive Web Design – freeCodeCamp</a></li>
+            <li><a href="https://www.freecodecamp.org/certification/suyogdev/front-end-development-libraries" target="_blank">Front-End Development Libraries – freeCodeCamp</a></li>
+          </ul>
+        </section>
+
+        <section id="experience" class="hidden">
+          <h2>Projects</h2>
+          <p><strong>AI Solution Product Development</strong> – Final year project focused on building intelligent web-based solutions. View it on <a href="https://github.com/suyog-es/AI_Solution_Product_Development" target="_blank">GitHub</a>.</p>
+        </section>
+
+        <section id="contact" class="hidden">
+          <h2>Contact</h2>
+          <p>Email: <a href="mailto:suyogpokharel58@gmail.com">suyogpokharel58@gmail.com</a></p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
